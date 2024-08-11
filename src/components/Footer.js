@@ -22,8 +22,8 @@ const Footer = () => {
       <div className='flex flex-col gap-12 lg:flex-row'>
         {/*logo */}
         <div className='flex-1 mx-auto lg:mx-0 mb-6 max-w-[285px]'>
-        // eslint-disable-next-line jsx-a11y/anchor-is-valid
-          <a href='#'>
+          {/* eslint-disable-next-line jsx-a11y/anchor-is-valid*/}
+          <a href='#'role="button" tabindex="0">
             <img src={Logo} alt='' />
           </a>
         </div>
@@ -35,18 +35,16 @@ const Footer = () => {
           <div className='text-center w-full lg:text-left'>
             <div className='text-xl font-medium mb-6'>Quick Links</div>
             <ul className='space-y-4 text-gray'>
-              <li>
-              // eslint-disable-next-line jsx-a11y/anchor-is-valid
-              <a className='hover:text-blue transition' href='#'>Home</a></li>
-              <li>
-              // eslint-disable-next-line jsx-a11y/anchor-is-valid
-              <a className='hover:text-blue transition' href='#'>Products</a></li>
-              <li>// eslint-disable-next-line jsx-a11y/anchor-is-valid
-                <a className='hover:text-blue transition' href='#'>About</a></li>
-              <li>// eslint-disable-next-line jsx-a11y/anchor-is-valid
-                <a className='hover:text-blue transition' href='#'>Features</a></li>
-              <li>// eslint-disable-next-line jsx-a11y/anchor-is-valid
-                <a className='hover:text-blue transition' href='#'>Contact</a></li>
+              <li>{/* eslint-disable-next-line jsx-a11y/anchor-is-valid*/}
+                <a className='hover:text-blue transition' href='#'role="button" tabindex="0">Home</a></li>
+              <li>{/* eslint-disable-next-line jsx-a11y/anchor-is-valid*/}
+                <a className='hover:text-blue transition' href='#'role="button" tabindex="0">Products</a></li>
+              <li>{/* eslint-disable-next-line jsx-a11y/anchor-is-valid*/}
+                <a className='hover:text-blue transition' href='#'role="button" tabindex="0">About</a></li>
+              <li>{/* eslint-disable-next-line jsx-a11y/anchor-is-valid*/}
+                <a className='hover:text-blue transition' href='#'role="button" tabindex="0">Features</a></li>
+              <li>{/* eslint-disable-next-line jsx-a11y/anchor-is-valid*/}
+                <a className='hover:text-blue transition' href='#'role="button" tabindex="0">Contact</a></li>
             </ul>
           </div>
 
@@ -54,16 +52,16 @@ const Footer = () => {
           <div className='text-center w-full lg:text-left'>
             <div className='text-xl font-medium mb-6'>Resources Links</div>
             <ul className='space-y-4 text-gray'>
-              <li>// eslint-disable-next-line jsx-a11y/anchor-is-valid
-                <a className='hover:text-blue transition' href='#'>Download Whitepapper</a></li>
-              <li>// eslint-disable-next-line jsx-a11y/anchor-is-valid
-                <a className='hover:text-blue transition' href='#'>Smart Token</a></li>
-              <li>// eslint-disable-next-line jsx-a11y/anchor-is-valid
-                <a className='hover:text-blue transition' href='#'>Blockchain Explore</a></li>
-              <li>// eslint-disable-next-line jsx-a11y/anchor-is-valid
-                <a className='hover:text-blue transition' href='#'>Crypto API</a></li>
-              <li>// eslint-disable-next-line jsx-a11y/anchor-is-valid
-                <a className='hover:text-blue transition' href='#'>Interest</a></li>
+              <li>{/* eslint-disable-next-line jsx-a11y/anchor-is-valid*/}
+                <a className='hover:text-blue transition' href='#'role="button" tabindex="0">Download Whitepapper</a></li>
+              <li>{/* eslint-disable-next-line jsx-a11y/anchor-is-valid*/}
+                <a className='hover:text-blue transition' href='#'role="button" tabindex="0">Smart Token</a></li>
+              <li>{/* eslint-disable-next-line jsx-a11y/anchor-is-valid*/}
+                <a className='hover:text-blue transition' href='#'role="button" tabindex="0">Blockchain Explore</a></li>
+              <li>{/* eslint-disable-next-line jsx-a11y/anchor-is-valid*/}
+                <a className='hover:text-blue transition' href='#'role="button" tabindex="0">Crypto API</a></li>
+              <li>{/* eslint-disable-next-line jsx-a11y/anchor-is-valid*/}
+                <a className='hover:text-blue transition' href='#'role="button" tabindex="0">Interest</a></li>
             </ul>
           </div>
 
@@ -89,14 +87,14 @@ const Footer = () => {
         <div>&copy; 2024 CRAPPO. All rights reserved.</div>
       {/*social icons */}
       <div className='flex text-2xl gap-x-8'>
-      // eslint-disable-next-line jsx-a11y/anchor-is-valid
-        <a className='hover:text-blue transition' href='#'> <IoLogoYoutube /> </a>
-        // eslint-disable-next-line jsx-a11y/anchor-is-valid
-        <a className='hover:text-blue transition' href='#'> <IoLogoInstagram /> </a>
-        // eslint-disable-next-line jsx-a11y/anchor-is-valid
-        <a className='hover:text-blue transition' href='#'> <IoLogoTwitter /> </a>
-        // eslint-disable-next-line jsx-a11y/anchor-is-valid
-        <a className='hover:text-blue transition' href='#'> <IoLogoLinkedin /> </a>
+        {/* eslint-disable-next-line jsx-a11y/anchor-is-valid*/}
+        <a className='hover:text-blue transition' href='#'role="button" tabindex="0"> <IoLogoYoutube /> </a>
+        {/* eslint-disable-next-line jsx-a11y/anchor-is-valid*/}
+        <a className='hover:text-blue transition' href='#'role="button" tabindex="0"> <IoLogoInstagram /> </a>
+        {/* eslint-disable-next-line jsx-a11y/anchor-is-valid*/}
+        <a className='hover:text-blue transition' href='#'role="button" tabindex="0"> <IoLogoTwitter /> </a>
+        {/* eslint-disable-next-line jsx-a11y/anchor-is-valid*/}
+        <a className='hover:text-blue transition' href='#'role="button" tabindex="0"> <IoLogoLinkedin /> </a>
       </div>
     </div>
     </div>

@@ -11,8 +11,8 @@ const Header = ({ setNavMobile }) => {
   <header className='py-[30px] lg:pt-[60px]' data-aos='fade-down' data-aos-delay='900' data-aos-duration='2000' >
     <div className='container mx-auto flex items-center justify-between'>
       {/* logo */}
-      // eslint-disable-next-line jsx-a11y/anchor-is-valid
-      <a href='#'>
+      {/* eslint-disable-next-line jsx-a11y/anchor-is-valid*/}
+      <a href='#'role="button" tabindex="0">
         <img src={Logo} alt=''/>
       </a>
       {/* nav & btns */}
