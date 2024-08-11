@@ -33,8 +33,8 @@ const Trade = () => {
                 <p className='mb-6 text-center'>{description}</p>
                 {/*btn */}
                 <button className={`${name === itemName ? 'text-white bg-blue hover:bg-blue-hover border-none pl-8 pr-6 gap-x-3' : 'text-blue w-16'}border-2 border-gray-300 rounded-full h-16 flex justify-center items-center`}>
-                  {name == itemName && <div className='text-lg font-medium'>Start Mining</div>}
-                  <IoIosArrowForward className={`${name == itemName ? 'text-2xl' : 'text-3xl'}`}/>
+                  {name === itemName && <div className='text-lg font-medium'>Start Mining</div>}
+                  <IoIosArrowForward className={`${name === itemName ? 'text-2xl' : 'text-3xl'}`}/>
                 </button>
               </div>
             </div>
