@@ -18,6 +18,7 @@ const NavMobile = ({setNavMobile}) => {
         {navData.map((item, index) => {
           return (
             <li key={index}>
+              // eslint-disable-next-line jsx-a11y/anchor-is-valid
               <a href={item.href}>{item.name}</a>
             </li>
           );
